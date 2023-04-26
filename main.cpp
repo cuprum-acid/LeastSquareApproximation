@@ -17,6 +17,7 @@ using namespace std;
 #endif
 
 
+
 // Computes the least square approximation for a given data set
 vector <double> leastSquareApproximation(int m, vector<pair<double, double>>& data, int n) {
     // Construct the matrix A and vector b
