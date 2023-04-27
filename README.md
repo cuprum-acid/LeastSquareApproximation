@@ -2,7 +2,7 @@
 C++ program to compose a least square approximation for a given data set. Itvgenerates an image with GNUPlot.
 
 
-List of points that were tested:
+List of 10 points that were tested:
 ```
 -9 -7 -3 -1 0 3 5 7 13 15
 -3 -1 0 3 5 7 11 14 16 19

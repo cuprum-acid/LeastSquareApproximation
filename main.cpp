@@ -140,7 +140,7 @@ int main() {
     // Plot the least square approximation
     fprintf(pipe, "plot [-20 : 20] [-20 : 20]  %lf*x**3 + %lf*x**2 + %lf*x**1 + %lf*x**0 , '-' using 1:2 with points\n",  h[3], h[2], h[1], h[0]);
     for (int i = 0; i < m; i++) {
-        fprintf(pipe, "%f\t%f\n", data[i].second, data[i].first);
+        fprintf(pipe, "%f\t%f\n", data[i].first, data[i].second);
     }
     fprintf(pipe, "e\n");
     fflush(pipe);
