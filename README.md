@@ -1,5 +1,5 @@
 # Least Square Approximation
-C++ program to compose a least square approximation for a given data set. Itvgenerates an image with GNUPlot.
+C++ program to compose the least square approximation for a given data set. It generates an image with GNUPlot.
 
 
 List of 10 points that were tested:
